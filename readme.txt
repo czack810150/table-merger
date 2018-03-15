@@ -1,4 +1,3 @@
-# table-merger
 Overview
 --------
 Given the 2 sample files: "first.html" and "second.csv" under the "data" directory,
@@ -9,8 +8,8 @@ write a Java program that performs the following:
 2. Read and extract the table from second.csv.
 
 3. Combine and merge these 2 tables into 1 by consolidating duplicated columns and write the results in a file named "combined.csv".
-- For the merge operation, assume "ID" is unique.
-- The "ID" column in the output file "combined.csv" should be sorted in ascending order.
+   - For the merge operation, assume "ID" is unique.
+   - The "ID" column in the output file "combined.csv" should be sorted in ascending order.
 
 When in doubt, state your assumptions and proceed.
 
@@ -34,8 +33,8 @@ Important!!!
 ------------
 - Your program should be extensible and easy to maintain.
 - Additional file types will need to be supported in the future (not yet). Your code must make it easy to
-add new file types.
+  add new file types.
 - The sample data files are just samples. Your program must allow:
-a. any number of input files.
-b. any number of columns in the csv or html files.
-c. the data can be in any language (Chinese, French, English, etc).
+    a. any number of input files.
+    b. any number of columns in the csv or html files.
+    c. the data can be in any language (Chinese, French, English, etc).
