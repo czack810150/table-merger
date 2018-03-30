@@ -1,6 +1,8 @@
 # table-merger
 Overview
 --------
+This originally came from a code challenge. It will soon to be updated to be more general and customizable.
+
 Given the 2 sample files: "first.html" and "second.csv" under the "data" directory,
 write a Java program that performs the following:
 
